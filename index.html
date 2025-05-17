@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CHOOSE YOUR FIGHTER!</h1>
+        <div class="vs-container">
+            <span class="you-word">YOU</span>
+            <span class="vs">VS</span>
+            <span class="computer-word">COMPUTER</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="buttons">
+            <button id="rock"><img src="https://www.clipartkey.com/mpngs/b/95-959934_googly-eyes-clip-art.png" alt="Rock" class="choice-img"></button>
+            <button id="paper"><img src="https://clipart-library.com/2023/Primary-writing-paper-clipart.png" alt="Paper" class="choice-img"></button>
+            <button id="scissors"><img src="https://i.pinimg.com/originals/de/d7/34/ded734058afb08d065830124d3d97a54.png" alt="Scissors" class="choice-img"></button>
+        </div>
+
+        <div class="result">
+            <p id="player-choice">You chose... </p>
+            <p id="computer-choice">Computer chose... </p>
+            <p id="round-result">Result: </p>
+        </div>
+
+        <div class="scoreboard">
+            <p id="player-score" class="you-word">Your Score: 0</p>
+            <p id="computer-score" class="computer-word">Computer Score: 0</p>
+        </div>
+
+        <button id="play-again">Play Again</button>
+    </main>
+</body>
+</html>
